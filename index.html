@@ -13,33 +13,33 @@
     <header class="header">
       <nav class="header-menu">
         <ul class="menu-items">
-          <li class="header-links-list-item-no-bullit">
-            <a href="index.html" class="header-link-active"> главная </a>
+          <li class="header-links-list-item header-links-list-item-no-bullit">
+            <a class="header-link header-link-active" href="index.html"> главная </a>
           </li>
           <li class="header-links-list-item">
-            <a href="lots.html" class="header-link"> посмотреть лоты </a>
+            <a class="header-link" href="lots.html"> посмотреть лоты </a>
           </li>
           <li class="header-links-list-item">
-            <a href="about.html" class="header-link"> об аукционе </a>
+            <a class="header-link" href="about.html"> об аукционе </a>
           </li>
         </ul>
       </nav>
-      <a class="logo-black">
-        <img src="/images/logo-black.svg" alt="Логотип чёрного цвета" />
+      <a class="logo-black" href="">
+        <img src="./images/logo-black.svg" alt="Логотип чёрного цвета" />
       </a>
-      <div class="info">
-        <a class="number" href="tel:+99995555555"> +9 999 555 5555 </a>
-        <a class="email" href="mailto:info@sobaka.ge"> info@sobaka.ge </a>
-        <address class="address"> наб. Принсенграхт 263-265, Амстердам </address>
-      </div>
+      <address class="info">
+        <a class="tel-link" href="tel:+99995555555"> +9 999 555 5555 </a>
+        <a class="mail-link" href="mailto:info@sobaka.ge"> info@sobaka.ge </a>
+        <p class="address-text"> наб. Принсенграхт 263-265, Амстердам </address>
+      </address>
     </header>
     <main>
       <section class="cover">
         <div class="overlay">
           <h1 class="page-title">
-            <span class="first-line"> Оно </span>
-            <span class="second-line"> тебе </span>
-            <span class="third-line"> надо </span>
+            <span class="line-it"> Оно </span>
+            <span class="line-you"> тебе </span>
+            <span class="line-need"> надо </span>
           </h1>
           <div class="description">
             <span class="description-text">
@@ -54,13 +54,13 @@
       <section class="lots">
         <h2 class="lots-title">Лоты</h2>
         <ul class="lots-list">
-          <li class="lot-item-first">
-            <div class="lot-overlay">
-              <a class="lot-link">
-                <article class="lot-content-first">
-                  <h2 class="lot-title-first">
+          <li class="lots-card-list-item card_type_film">
+            <div class="overlay">
+              <a class="lot-link" href="">
+                <article class="card">
+                  <h3 class="lot-title">
                     Фильм режиссёра, который бросил киношколу
-                  </h2>
+                  </h3>
                   <p class="lot-content-text">
                     Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                     ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -70,14 +70,14 @@
               </a>
             </div>
           </li>
-          <li class="lot-item-second">
-            <div class="lot-overlay">
-              <a class="lot-link">
-                <article class="lot-content-second">
-                  <h2 class="lot-title-second">
+          <li class="lots-card-list-item card_type_book">
+            <div class="overlay">
+              <a class="lot-link" href="">
+                <article class="card">
+                  <h3 class="lot-title">
                     Книга, где описан один скучный день из жизни рекламного
                     агента
-                  </h2>
+                  </h3>
                   <p class="lot-content-text">
                     Объёмом почти в тысячу страниц. Иногда без знаков препинания
                     и с переходами на древнеанглийский. В ней одновременно
@@ -90,13 +90,13 @@
               </a>
             </div>
           </li>
-          <li class="lot-item-third">
-            <div class="lot-overlay">
-              <a class="lot-link">
-                <article class="lot-content-third">
-                  <h2 class="lot-title-third">
+          <li class="lots-card-list-item card_type_picture">
+            <div class="overlay">
+              <a class="lot-link" href="">
+                <article class="card">
+                  <h3 class="lot-title">
                     Картина, которую повторит даже 5-летний сын маминой подруги
-                  </h2>
+                  </h3>
                   <p class="lot-content-text">
                     Ну действительно, там линия, тут кружочек, а здесь и вовсе
                     что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -113,10 +113,10 @@
       <section class="about">
         <div class="logo-white-background">
           <div class="logo-white">
-            <img src="/images/logo-white.svg" alt="Логотип белого цвета" />
+            <img src="./images/logo-white.svg" alt="Логотип белого цвета" />
           </div>
         </div>
-        <div>
+        <div class="about-info-block">
           <h2 class="about-title">Об аукционе</h2>
           <div class="about-content">
             <p class="about-text">
@@ -140,37 +140,43 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="info-footer">
-        <a class="number" href="tel:+99995555555"> +9 999 555 5555 </a>
-        <a class="email" href="mailto:info@sobaka.ge"> info@sobaka.ge </a>
-        <address class="address-footer">
+      <address class="info-footer">
+        <a class="tel-link" href="tel:+99995555555"> +9 999 555 5555 </a>
+        <a class="mail-link" href="mailto:info@sobaka.ge"> info@sobaka.ge </a>
+        <p class="address-footer">
           наб. Принсенграхт 263-265, Амстердам
-        </address>
-      </div>
+        </p>
+      </address>
       <nav class="footer-menu">
         <ul class="menu-items-footer">
-          <li class="header-links-list-item-no-bullit">
-            <a href="index.html" class="header-link-active"> главная </a>
+          <li class="footer-links-list-item-no-bullit">
+            <a class="footer-link footer-link-active" href="index.html"> главная </a>
           </li>
-          <li class="header-links-list-item-no-bullit">
-            <a href="" class="header-link"> посмотреть лоты </a>
+          <li class="footer-links-list-item-no-bullit">
+            <a class="footer-link" href=""> посмотреть лоты </a>
           </li>
-          <li class="header-links-list-item-no-bullit">
-            <a href="" class="header-link"> об аукционе </a>
+          <li class="footer-links-list-item-no-bullit">
+            <a class="footer-link" href=""> об аукционе </a>
           </li>
         </ul>
       </nav>
-      <div class="contact-links">
-        <a class="contact-logo" href="">
-          <img src="/images/yt.svg" alt="Ютуб" />
-        </a>
-        <a class="contact-logo" href="">
-          <img src="/images/vk.svg" alt="ВК" />
-        </a>
-        <a class="contact-logo" href="">
-          <img src="/images/pinterest.svg" alt="Пинтерест" />
-        </a>
-      </div>
+      <ul class="contact-links">
+        <li class="contact-item">
+          <a class="contact-link" href="">
+            <img class="contact-logo" src="./images/yt.svg" alt="Ютуб" />
+          </a>
+        </li>
+        <li class="contact-item">
+          <a class="contact-link" href="">
+            <img class="contact-logo" src="./images/vk.svg" alt="ВК" />
+          </a>
+        </li>
+        <li class="contact-item">
+          <a class="contact-link" href="">
+            <img class="contact-logo" src="./images/pinterest.svg" alt="Пинтерест" />
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
