@@ -58,11 +58,7 @@
   letter-spacing: 0%;
 }
 
-.tel-link {
-  text-underline-offset: 5px;
-}
-
-.mail-link {
+.address-link {
   text-underline-offset: 4px;
 }
 
@@ -80,11 +76,10 @@
 .page-title {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-top: 113px;
+  padding-top: 153px;
   padding-left: 50px;
   padding-right: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 95px;
   font-family: "Raleway", "Arial", sans-serif;
   font-weight: 700;
   font-style: bold;
@@ -96,15 +91,15 @@
   color: white;
 }
 
-.line-it {
+.aligned-text-left {
   text-align: left;
 }
 
-.line-you {
+.aligned-text-center {
   text-align: center;
 }
 
-.line-need {
+.aligned-text-right {
   text-align: right;
 }
 
@@ -120,14 +115,11 @@
 }
 
 .overlay {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   position: absolute;
   width: 100%;
   inset: 0;
   background: rgb(0 0 0/ 0.6);
-  z-index: 0;
+  z-index: -1;
 }
 
 .description {
@@ -315,17 +307,17 @@
   flex-direction: row;
   justify-content: space-between;
   padding-top: 110px;
-  padding-bottom: 50px;
+  padding-bottom: 82px;
 }
 
 .footer-menu {
   display: flex;
   justify-content: center;
   padding-top: 3px;
-  padding-right: 7px;
+  padding-left: 7px;
 }
 
-.footer-links-list-item-no-bullit {
+.footer-links-list-item {
   list-style: none;
 }
 
